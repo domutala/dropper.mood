@@ -1,0 +1,48 @@
+{
+  "name": "dropper.mood",
+  "version": "0.0.1",
+  "author": {
+    "name": "domutala",
+    "email": "ibntalla@gmail.com"
+  },
+  "description": "The best Vue.js droppdwon component.",
+  "repository": "domutala/dropper.mood",
+  "license": "MIT",
+  "main": "dist/dropper.common.js",
+  "css": "dist/dropper.css",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name dropper ./src/index.ts",
+    "lint": "vue-cli-service lint",
+    "deploy": "npm run build && npm publish && npm run git",
+    "git": "git push -u origin master"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.2",
+    "vue-property-decorator": "^8.3.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.2.0",
+    "@vue/cli-plugin-typescript": "^4.2.0",
+    "@vue/cli-service": "^4.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "typescript": "~3.7.5",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "keywords": [
+    "dropper.mood",
+    "dropdown",
+    "dropper",
+    "mood",
+    "vue",
+    "vue",
+    "vue.js",
+    "vue-components",
+    "components",
+    "framework",
+    "ui"
+  ]
+}

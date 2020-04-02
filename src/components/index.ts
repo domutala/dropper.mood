@@ -1,1 +1,1 @@
-export { default as MdDropper } from './popup';
+export { default as MdDropper } from './dropper';

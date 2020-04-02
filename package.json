@@ -1,12 +1,13 @@
 {
   "name": "dropper.mood",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "author": {
     "name": "domutala",
     "email": "ibntalla@gmail.com"
   },
   "description": "The best Vue.js droppdwon component.",
   "repository": "domutala/dropper.mood",
+  "homepage": "https://domutala.github.io/dropper.mood/",
   "license": "MIT",
   "main": "dist/dropper.common.js",
   "css": "dist/dropper.css",
@@ -14,8 +15,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name dropper ./src/index.ts",
     "lint": "vue-cli-service lint",
-    "deploy": "npm run build && npm publish && npm run git",
-    "git": "git push -u origin master"
+    "publish": "npm publish",
+    "git": "git push -u origin master",
+    "deploy": "npm run build && npm publish && npm run git"
   },
   "dependencies": {
     "core-js": "^3.6.4",

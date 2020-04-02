@@ -1,6 +1,6 @@
 import * as mComponents from './components';
 
-export const MdPopper = mComponents.MPopup;
+export const MdDropper = mComponents.MdDropper;
 
 const install = (Vue: any) => {
   // Components

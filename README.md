@@ -39,12 +39,12 @@ Vue.use(dropper);
 
 ```Vue
 <script lang="js">
-import { MdPopper } from "dropper.mood";
+import { MdDropper } from "dropper.mood";
 import 'dropper.mood/dist/dropper.css';
 
 export default {
   components: {
-    MdPopper
+    MdDropper
   }
 }
 </script>
@@ -205,7 +205,7 @@ You can access certain dropdown functions such as **open** and **close**. These 
     </div>
     <md-dropper
       join="#id-join-element"
-      ref="popup"
+      ref="dropper"
       @esc-keydown="closeDropper"
       @other-area-clicked="closeDropper"
       class="my-super-dropdown"
@@ -253,4 +253,4 @@ export default {
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/domutala/dropper.mood/blob/master/LICENCE/)

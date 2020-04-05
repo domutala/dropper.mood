@@ -58,36 +58,22 @@
   &.arrow-top {
     margin-top: 10px;
 
-    .before {
-      top: 0;
-    }
-
     .after {
       top: 0;
       transform: translateY(-50%) rotate(45deg);
     }
 
     &.arrow-on-left {
-      .before {
-        left: 4px;
-      }
       .after {
         left: 11px;
       }
     }
     &.arrow-on-right {
-      .before {
-        right: 4px;
-      }
       .after {
         right: 11px;
       }
     }
     &.arrow-on-middle {
-      .before {
-        left: 50%;
-        transform: translateX(-50%);
-      }
       .after {
         left: 50%;
         transform: translateY(-50%) translateX(-50%) rotate(45deg);
@@ -97,36 +83,22 @@
   &.arrow-bottom {
     margin-bottom: 10px;
 
-    .before {
-      bottom: 0;
-    }
-
     .after {
       bottom: 0;
       transform: translateY(50%) rotate(225deg);
     }
 
     &.arrow-on-left {
-      .before {
-        left: 4px;
-      }
       .after {
         left: 11px;
       }
     }
     &.arrow-on-right {
-      .before {
-        right: 4px;
-      }
       .after {
         right: 11px;
       }
     }
     &.arrow-on-middle {
-      .before {
-        left: 50%;
-        transform: translateX(-50%);
-      }
       .after {
         left: 50%;
         transform: translateY(50%) translateX(-50%) rotate(-135deg);
@@ -136,36 +108,22 @@
   &.arrow-left {
     margin-left: 10px;
 
-    .before {
-      left: 0;
-    }
-
     .after {
       left: 0;
       transform: translateX(-50%) rotate(-45deg);
     }
 
     &.arrow-on-top {
-      .before {
-        top: 4px;
-      }
       .after {
         top: 11px;
       }
     }
     &.arrow-on-bottom {
-      .before {
-        bottom: 4px;
-      }
       .after {
         bottom: 11px;
       }
     }
     &.arrow-on-middle {
-      .before {
-        top: 50%;
-        transform: translateY(-50%);
-      }
       .after {
         top: 50%;
         transform: translateX(-50%) translateY(-50%) rotate(-45deg);
@@ -175,35 +133,22 @@
   &.arrow-right {
     margin-right: 10px;
 
-    .before {
-      right: 0;
-    }
     .after {
       right: 0;
       transform: translateX(50%) rotate(-225deg);
     }
 
     &.arrow-on-top {
-      .before {
-        top: 4px;
-      }
       .after {
         top: 11px;
       }
     }
     &.arrow-on-bottom {
-      .before {
-        bottom: 4px;
-      }
       .after {
         bottom: 11px;
       }
     }
     &.arrow-on-middle {
-      .before {
-        top: 50%;
-        transform: translateY(-50%);
-      }
       .after {
         top: 50%;
         transform: translateX(50%) translateY(-50%) rotate(135deg);

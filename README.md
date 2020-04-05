@@ -99,6 +99,8 @@ This property defines the alignment direction of the dropdown. If its value is _
 - **requred**: _false_
 - **value**: _true_ | _false_
 
+This property allows you to display or hide the arrow.
+
 ### justify
 
 - **type**: _boolean_
@@ -106,8 +108,6 @@ This property defines the alignment direction of the dropdown. If its value is _
 - **value**: _true_ | _false_
 
 If true, the dropdown will be placed in the middle of the join element. This property is only taken into account if the display screen allows centered alignment.
-
-This property allows you to display or hide the arrow.
 
 ### show-on
 

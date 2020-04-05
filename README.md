@@ -8,7 +8,7 @@ Dropper.mood is an intelligent dropdown component designed with Vue.js. It can b
 
 ## Documentation
 
-[Documentation](https://domutala.github.io/dropper-mood)
+[Documentation](https://domutala.github.io/droppermood)
 
 ## Installing
 
